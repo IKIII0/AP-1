@@ -1,10 +1,10 @@
-#include <iostream>
-using namespace std;
+#include <iostream> //header cipupus
+using namespace std; // biar ga perlu menggunakan std berulang
 
 int main(){
     int a, b;
 
-    system("cls");
+    system("cls"); //membersihkan tampilan yang tidak berguna
 
     // Assignment Operator (=)
     a = 3;
