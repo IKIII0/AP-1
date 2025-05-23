@@ -1,9 +1,10 @@
-#include <iostream>
-#include <vector>
+#include <iostream> //header cipupus/cpp
+#include <vector> //header untuk vector
 using namespace std;
 int main(){
+    //membuat vector
     vector<string> nama_karyawan = {"Rifki", "Dhafa", "Willy", "Rizky", "Kiel"};
-
+    // cara simple menampilkan isi dari vector nama_karyawan
     // for (string n : nama_karyawan){
     //     cout<<n<<endl;
     // }
