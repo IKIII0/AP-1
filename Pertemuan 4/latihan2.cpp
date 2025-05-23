@@ -6,7 +6,7 @@ int main(){
     int i;
 
     cout<<"Masukkan kalimat: "; getline(cin,kalimat); //getline bisa membaca karakter spasi
-    //for perulangan 
+    //perulangan untuk membuat semua huruf vokal jadi kapital
     for(i = 0; i <= kalimat.length(); i++){ //kalimat.length = panjang string kalimat
         if (kalimat[i] == 'a' or kalimat[i] == 'i' or kalimat[i] == 'u' or kalimat[i] == 'e' or kalimat[i] == 'o'){
             kalimat[i] = toupper(kalimat[i]); //toupper membuat huruf jadi kapital
