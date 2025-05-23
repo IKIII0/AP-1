@@ -1,20 +1,20 @@
-#include <iostream>
-#include <string>
-#include <array>
-using namespace std;
+#include <iostream> //header cipupus/cpp
+#include <string> //header string (disini memakai substr)
+#include <array> //header untuk array
+using namespace std; //gak perlu memakai std
 
 int main(){
     // ada 2 cara membuat array
     // string nama[5];
 
-    // cara pertama
+    // cara pertama:
     // nama[0] = "Rifki";
     // nama[1] = "Dhafa";
     // nama[2] = "Willy";
     // nama[3] = "Rizky";
     // nama[4] = "Kiel";
 
-    // cara kedua
+    // cara kedua:
     // string nama[5] = {"Rifki", "Dhafa", "Willy", "Rizky", "Kiel"};
 
     // cout<<nama[0]<<endl;
@@ -22,25 +22,29 @@ int main(){
     // cout<<nama[2]<<endl;
     // cout<<nama[3]<<endl;
     // cout<<nama[4]<<endl;
-
+    
+    //Menampilkan semua isi string menggunakan increment
     // for (int i=0;i<5;i++){
     //     cout<<nama[i]<<endl;
     // }
 
+    //Menampilkan semua isi string meggunakan decrement
     // for (int i=4;i>=0;i--){
     //     cout<<nama[i]<<endl;
     // }
 
-    // Multidimensional array
+    // Multidimensional array:
     // int matrix[2][3]={{1,3,5},{2,4,6}};
 
+    //Menampilkan Matrix 3x2
     // for (int i=0;i<2;i++){
     //     for (int j=0;j<3;j++){
     //         cout<<matrix[i][j]<<" ";
     //     }
     //     cout<<endl;
     // }
-
+    
+    //Menampilkan Matrix 6x4
     // int matrix[4][6]={{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6},{1,2,3,4,5,6}};
     // for (int i=0;i<4;i++){
     //     for (int j=0;j<6;j++){
@@ -48,7 +52,8 @@ int main(){
     //     }
     //     cout<<endl;
     // }
-
+    
+    // Menampilkan string menggunakan index dan memisahkan string nya
     // string nama = "Sauqy";
     // for (int i=0;i<nama.length;i++){
     //     cout<<nama[i]<<endl;
@@ -56,11 +61,11 @@ int main(){
 
     // string s1 = "awooo";
     // string s2 = "uwooo";
-
+    // Menambah 2 string dan menghitung panjang nya
     // cout<<(s1 + s2).length()<<endl;
 
     // substring
-    // cout<<(s1 + s2).substr(0,2)<<endl;
+    // cout<<(s1 + s2).substr(0,2)<<endl; // ambil substring dari indeks ke 0 sepanjang 2 karakter
 
     // Operator sizeof()
     // int angka=10;
@@ -68,24 +73,24 @@ int main(){
     // cout<<sizeof(angka)<<endl;
 
     // int nilai[]={10,20,30,40,50};
-    // cout<<sizeof(nilai)<<endl;
+    // cout<<sizeof(nilai)<<endl; //untuk menghitung size dari nilai dalam bentuk byte
 
     // string n = "Rifki";
     // cout<<sizeof(n)<<endl;
-
+    
     // int n;
     // string nama_karyawan[] = {"Rifki", "Dhafa", "Willy", "Rizky", "Kiel"};
-    // n = sizeof(nama_karyawan)/sizeof(string);
+    // n = sizeof(nama_karyawan)/sizeof(string); //untuk mengetahui berapa buah elemen didalam array tersebut
     // cout<<n<<endl;
 
     // array library
-
     array<float,5> nilai = {87.5,90,100,95.7,78.5};
     cout<<"Nilai: ";
     // for (int i=0;i,nilai.size();i++){
     //     cout<<nilai[i]<<" ";
     // }
-
+    
+    //menampilkan isi dari array
     for (float n : nilai){
         cout<<n<<endl;
     }
