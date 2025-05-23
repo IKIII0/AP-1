@@ -11,8 +11,8 @@ int main(){
     */
    cout<<"Masukkan nama: ";//cin>>nama; 
    getline(cin, nama); //agar karakter spasi bisa terbaca
-   cout<<"Masukkan NIM: ";cin>>nim;
-   cout<<"Masukkan Kom: ";cin>>kom;
+   cout<<"Masukkan NIM: ";cin>>nim; // cout untuk menampilkan
+   cout<<"Masukkan Kom: ";cin>>kom; // cin untuk menginput
    cout<<"Masukkan IP: ";cin>>ip;
 
    cout<<"\nNama: "<<nama<<endl;
