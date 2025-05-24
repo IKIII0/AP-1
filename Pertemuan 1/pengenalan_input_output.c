@@ -5,7 +5,6 @@ int main(){
     int nim;
     float ip;
     // printf("hello world\n");
-
     printf("Masukkan Nama: "); gets(nama); //ini gets string untuk mengambil input berupa teks
     printf("Masukkan NIM: "); scanf("%d", &nim); getchar(); //getchar disini untuk menyerap sebuah karakter newline ketika kita enter
     printf("Masukkan KOM: "); gets(kom); //printf untuk menampilkan 
