@@ -1,7 +1,5 @@
 #include <iostream> //header cipupus/cpp/c++
-
 using namespace std; //biar gak perlu memakai std berulang
-
 int main(){
     float luas, p, l;
 
