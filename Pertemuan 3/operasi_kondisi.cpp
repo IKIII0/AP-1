@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus
 using namespace std; //biar gak perlu memakai std berulang
-
 int main(){
     int nilai;
     system("cls"); //membersihkan tampilan yang tidak perlu
