@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <iostream> //header cipupus/cpp
+using namespace std; //gak perlu ngulangin std
 // no return value
 void tampilkanPesan(){
     cout<<"===SELAMAT DATANG DI AP 1==="<<endl;
@@ -9,14 +9,14 @@ void tampilkanPesan(){
 int tambah(int a, int b){
     return a + b;
 }
-
+// fungsi mencari faktorial memakai rekursif
 int faktorial(int n) {
     if (n == 0 || n == 1)
         return 1;
     else
         return n * faktorial(n - 1);
 }
-
+// program utama
 int main(){
     system("cls");
     tampilkanPesan();
