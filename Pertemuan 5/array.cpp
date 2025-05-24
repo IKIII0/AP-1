@@ -2,7 +2,6 @@
 #include <string> //header string (disini memakai substr)
 #include <array> //header untuk array
 using namespace std; //gak perlu memakai std
-
 int main(){
     // ada 2 cara membuat array
     // string nama[5];
