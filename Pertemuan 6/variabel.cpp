@@ -1,15 +1,15 @@
-#include <iostream>
-using namespace std;
-
+#include <iostream> //header cipupus
+using namespace std; //gak perlu buat std
+//variabel global
 string namaglobal = "Ilmu";
 
 void namaVariabel(){
+    //variabel lokal
     string namaLokal = "Komputer";
 }
 
 int main(){
     string nama = "geda";
-    namaVariabel();
+    namaVariabel(); //memanggil fungsi
     cout<<namaglobal;
-
 }
