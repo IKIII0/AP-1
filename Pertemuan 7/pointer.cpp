@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
-
+//fungsi penjumlahan
 void penjumlahan(int a, int b){
     cout<< a + b <<endl;
 }
-
+// fungsi perjumlahan pointer
 void penjumlahanPointer (int *a, int *b){
     *a += *b;
     cout<<*a<<endl;
 }
-
+//membuat fungsi kali 2 dengan menggunakan pointer
 void doubleValue(int *a){
     *a *= 2;
     cout<< *a <<endl;
@@ -18,7 +18,7 @@ void doubleValue(int *a){
 int main(){
     system("cls");
 
-    // Deklarasi Pointer
+    // Deklarasi Pointer:
     // int number = 35;
     // int *p_number = &number;
 
@@ -28,10 +28,10 @@ int main(){
     // cout<<"Isi variabel yang ditunjuk oleh p_number: "<<*p_number<<endl;
     // cout<<"Alamat memori variabel p_number: "<<&p_number<<endl;
     
-    // Pointer Operation
+    // Pointer Operation:
     // *p_number = 25;
 
-    // pointer in array
+    // pointer in array:
     // int num[] = {1,2,3,4,5};
     // int *p_num = num;
     // cout<<"Alamat memori variabel num: "<<&num[3]<<endl;
@@ -49,7 +49,7 @@ int main(){
     // cout<<"Alamat memori variabel p_num: "<<&p_num<<endl;
     // cout<<endl;
 
-    // Pointer in Parameter
+    // Pointer in Parameter:
     // int num1 = 5, num2 = 7;
     // penjumlahan(num1,num2);
     // cout<<num1<<endl;
@@ -58,7 +58,7 @@ int main(){
     // cout<<num1<<endl;
     // cout<<num2<<endl;
 
-    // Pointer in Pointer
+    // Pointer in Pointer:
     // int score = 4;
     // int *p_score = &score;
     // int **p_p_score = &p_score;
@@ -68,7 +68,7 @@ int main(){
     // cout<<"isi variabel p_p_score: "<<p_p_score<<" dan isi variabel yang ditunjuk oleh p_p_score: "<<**p_p_score<<" alamat memori p_p_score: "<<&p_p_score<<endl;
 
 
-    //dynamic pointer
+    //dynamic pointer:
     // int *ptr = new int;
     // *ptr = 30;
     // cout<<"isi variabel ptr: "<<*ptr<<" alamat variabel ptr: "<<&ptr<<endl;
