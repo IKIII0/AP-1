@@ -1,5 +1,4 @@
 #include <iostream> //header cipupus
-
 using namespace std; //biar ga perlu std berulang
 int main(){
     int nilai;
