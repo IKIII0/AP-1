@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus/cpp
 using namespace std; //gak memakai std berulang
-
 int main(){
     string kalimat;
     int i;
