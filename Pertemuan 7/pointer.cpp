@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <iostream> //header cipupus/cpp
+using namespace std; // biar gak perlu pakai std
 //fungsi penjumlahan
 void penjumlahan(int a, int b){
     cout<< a + b <<endl;
