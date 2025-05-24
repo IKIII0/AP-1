@@ -1,7 +1,6 @@
 #include <iostream> // header untuk cipupus
 #include <conio.h> //header untuk getche() dan getch
-using namespace std;
-
+using namespace std; //biar gak pakai std berulang
 int main(){
     string nama,nim;
     char kom, jenis_kelamin;
