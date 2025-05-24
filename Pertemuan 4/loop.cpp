@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus/cpp
 using namespace std; // gak pakai std
-
 int main(){
     a: //goto a bakal pergi kesini
         cout<<"Hello world"<<endl;
