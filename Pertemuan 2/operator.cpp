@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus
 using namespace std; // biar ga perlu menggunakan std berulang
-
 int main(){
     int a, b;
 
