@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus
 using namespace std; // ga pakai std
-
 int main() {
     string password, sandi, expected = "";
 
