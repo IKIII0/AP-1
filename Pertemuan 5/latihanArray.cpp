@@ -1,5 +1,6 @@
 #include <iostream> //header cipupus/cpp
 using namespace std; //gak perlu ribet memakai std
+
 int main(){
     //membuat array untuk matrix 2x2
     int matrix1[2][2]; 
