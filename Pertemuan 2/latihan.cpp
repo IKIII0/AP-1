@@ -1,6 +1,5 @@
 #include <iostream> //header cipupus/cpp/c++
 using namespace std; //untuk tidak perlu menggunakan std berulang lagi
-
 int main(){
     float v,r,lp;
 
