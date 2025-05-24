@@ -1,6 +1,7 @@
 #include <iostream> //header cipupus/cpp
 #include <vector> //header untuk vector
 using namespace std;
+
 int main(){
     //membuat vector
     vector<string> nama_karyawan = {"Rifki", "Dhafa", "Willy", "Rizky", "Kiel"};
